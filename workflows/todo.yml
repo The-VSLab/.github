@@ -1,0 +1,4 @@
+- name: "Convert TODOs to Issues"
+        uses: alstr/todo-to-issue-action@v5
+        with:
+          IDENTIFIERS: '["TODO", "EXPERIMENT", "OPTIMIZE"]'
